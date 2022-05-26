@@ -53,7 +53,7 @@ CORS(app)
 jwt1 = JWTManager(app)
 
 app.config['SECRET_KEY'] = 'EMDRSecretKey'
-app.config['SQLALCHEMY_DATABASE_URI'] = DB_URI
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://bGeDAIbzII:784iGwYRWg@remotemysql.com/bGeDAIbzII'
 
 db = SQLAlchemy(app)
 
