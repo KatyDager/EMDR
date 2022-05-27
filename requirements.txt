@@ -1,0 +1,17 @@
+bs4
+gunicorn
+Flask
+PYJwt
+bcrypt
+Werkzeug
+Flask-Cors
+Flask-Login
+Flask-JWT-Extended 
+mime
+requests 
+DateTime 
+uuid
+pymysql
+flask_sqlalchemy
+sqlalchemy
+Flask-Mail
