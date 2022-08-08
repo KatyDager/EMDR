@@ -32,7 +32,7 @@ from flask_mail import Mail, Message
 
 
 engine = create_engine(
-    'mysql://bGeDAIbzII:784iGwYRWg@remotemysql.com/bGeDAIbzII',
+    'mysql://E5PRx3QR9W:GF5n6kXxfZ@remotemysql.com/bGeDAIbzII',
     echo=True
 )
 Session = sessionmaker(bind=engine)
@@ -53,7 +53,7 @@ CORS(app)
 jwt1 = JWTManager(app)
 
 app.config['SECRET_KEY'] = 'EMDRSecretKey'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://bGeDAIbzII:784iGwYRWg@remotemysql.com/bGeDAIbzII'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://E5PRx3QR9W:GF5n6kXxfZ@remotemysql.com/E5PRx3QR9W'
 
 db = SQLAlchemy(app)
 
